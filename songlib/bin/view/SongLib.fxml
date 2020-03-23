@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TableColumn?>
+
+<?import javafx.scene.control.ListView?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.control.ListView?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.SongController">
+<children>
+      <Button fx:id="edit" layoutX="310.0" layoutY="179.0" mnemonicParsing="false"  text="Edit" />
+      <Button fx:id="delete" layoutX="250.0" layoutY="179.0" mnemonicParsing="false"  text="Delete" />
+      <Button fx:id="add" layoutX="200.0" layoutY="179.0" mnemonicParsing="false" text="Add" />
+
+      <Text layoutX="15.0" layoutY="15.0" text="Title" />
+      <Text  layoutX="15.0" layoutY="47.0" text="Artist" />
+      <Text  layoutX="15.0" layoutY="80.0" text="Album" />
+      <Text  layoutX="15.0" layoutY="115.0" text="Year" />
+ 
+      <Text  layoutX="15.0" layoutY="183.0" text="Songlist" />
+      <ListView fx:id="songList" layoutX="14.0" layoutY="220.0" />
+      <TextField fx:id="name" layoutX="184.0" layoutY="11.0" promptText="Enter Name" />
+      <TextField fx:id="artist" layoutX="184.0" layoutY="43.0" promptText="Enter Artist" />
+      <TextField fx:id="album" layoutX="184.0" layoutY="75.0" promptText="Enter Album" />
+      <TextField fx:id="year" layoutX="184.0" layoutY="111.0" promptText="Enter Year" />
+
+   </children>
+</AnchorPane>
+
+
